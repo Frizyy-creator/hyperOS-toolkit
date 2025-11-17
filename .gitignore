@@ -1,0 +1,10 @@
+# Termux
+.bash_history
+.git-credentials
+
+# Backup files
+*.save
+*.backup
+
+# Logs
+*.log
