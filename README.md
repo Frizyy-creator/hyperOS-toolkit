@@ -23,3 +23,22 @@ chmod +x hyperos_dashboard.sh
 
 ---
 ⭐ **Give us a star on GitHub--- >> README.md*
+
+## 📋 Supported Devices
+
+- ✅ **Redmi Note 12 4G** (tapas/topaz) - Optimized
+- ✅ All Xiaomi/HyperOS devices
+- ✅ Official and custom firmware
+- ✅ Android 11-14+
+
+## 🔧 Project Structure
+
+```
+hyperOS-toolkit/
+├── hyperos_dashboard.sh    # Main control panel (v5.0)
+├── hyperos_toolkit.sh      # Core optimization
+├── performance_profiles.sh # Performance modes
+├── security.sh            # Security & privacy
+├── system_info.sh         # System diagnostics
+└── install.sh            # Installation script
+```

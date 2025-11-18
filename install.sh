@@ -1,9 +1,6 @@
 #!/system/bin/sh
 echo "🚀 HyperOS Toolkit Installer"
-if [ "$(whoami)" != "root" ]; then
-    echo "❌ Root access required!"
-    exit 1
-fi
+[ "$(whoami)" != "root" ] && echo "❌ Root required!" && exit 1
 mkdir -p /data/hyperos_toolkit
 cp *.sh /data/hyperos_toolkit/
 chmod +x /data/hyperos_toolkit/*.sh
