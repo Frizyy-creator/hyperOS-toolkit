@@ -49,3 +49,13 @@
 ```bash
 curl -sL "https://raw.githubusercontent.com/Frizyy-creator/hyperOS-toolkit/main/cloud_installer.sh" | sh
 
+## 🛠️ Обслуживание
+
+### Ручное обновление:
+1. Скачайте свежие файлы с GitHub
+2. Замените старые версии
+3. Дайте права: `chmod +x *.sh`
+
+### Создание бэкапа:
+```bash
+./toolkit_updater_fixed.sh
