@@ -1,10 +1,15 @@
-# Termux
-.bash_history
-.git-credentials
+# Логи
+*.log
+/logs/
 
-# Backup files
-*.save
+# Временные файлы
+*.tmp
+*.temp
+
+# Резервные копии
+*.bak
 *.backup
 
-# Logs
-*.log
+# Системные
+.DS_Store
+Thumbs.db
